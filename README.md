@@ -52,7 +52,7 @@ Following a modularapproach, the Methodikum iOS App contains the following softw
     <br> The Model component encapsules all the Methodikum specific data models. 
 - **Backend**
     <br> The Backend component encapsules all the relevant network logic to synchronize data with the Methodikum Backend. 
-- **SUI**
+- **UI**
     <br> The UI component encapsules a set of basic UI elements, which can be used in other components to avoid redundant UI implementations as much as possible. 
 
 
