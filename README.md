@@ -27,14 +27,14 @@
 ## Third party dependencies
 ### Swift Package Manager
 - **Firebase Analytics**
-    <br> [Firebase Analytics]() 
-    <br>LICENSE: 
+    <br> [Firebase Analytics](https://firebase.google.com) provides free, unlimited reporting on up to 500 distinct events.
+    <br>LICENSE: Custom
 - **Firebase Crashlytics**
-    <br> [Firebase Crashlytics]() 
-    <br>LICENSE: 
+    <br> [Firebase Crashlytics](https://firebase.google.com) is a real time crash reporting tool, helps you prioritize and fix your most pervasive crashes based on the impact on real users.
+    <br>LICENSE: Custom
 - **Firebase Firestore**
-    <br> [Firebase Firestore]() 
-    <br>LICENSE: 
+    <br> [Firebase Firestore](https://firebase.google.com) is a flexible, scalable database for mobile, web, and server development from Firebase and Google Cloud.
+    <br>LICENSE: Custom 
 
 ### Fonts
 
@@ -52,6 +52,8 @@ Following a modularapproach, the Methodikum iOS App contains the following softw
     <br> The Model component encapsules all the Methodikum specific data models. 
 - **Backend**
     <br> The Backend component encapsules all the relevant network logic to synchronize data with the Methodikum Backend. 
+- **SUI**
+    <br> The UI component encapsules a set of basic UI elements, which can be used in other components to avoid redundant UI implementations as much as possible. 
 
 
 ## Author 
