@@ -19,7 +19,8 @@
 		241BDE8D285F181100021FE2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 241BDE8C285F181100021FE2 /* GoogleService-Info.plist */; };
 		241BDE90285F19FF00021FE2 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 241BDE8F285F19FF00021FE2 /* FirebaseAnalytics */; };
 		241BDE92285F19FF00021FE2 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 241BDE91285F19FF00021FE2 /* FirebaseCrashlytics */; };
-		241BDE96285F1B2F00021FE2 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241BDE95285F1B2F00021FE2 /* API.swift */; };
+		241BDE96285F1B2F00021FE2 /* MethodikumAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241BDE95285F1B2F00021FE2 /* MethodikumAPI.swift */; };
+		241BDE9A285F1F2300021FE2 /* Method.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241BDE99285F1F2300021FE2 /* Method.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,7 +54,8 @@
 		241BDE88285F174100021FE2 /* PlanningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanningView.swift; sourceTree = "<group>"; };
 		241BDE8A285F175000021FE2 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		241BDE8C285F181100021FE2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		241BDE95285F1B2F00021FE2 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		241BDE95285F1B2F00021FE2 /* MethodikumAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MethodikumAPI.swift; sourceTree = "<group>"; };
+		241BDE99285F1F2300021FE2 /* Method.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Method.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,10 +110,11 @@
 			children = (
 				241BDE8C285F181100021FE2 /* GoogleService-Info.plist */,
 				241BDE53285F129D00021FE2 /* MethodikumApp.swift */,
-				241BDE83285F16A100021FE2 /* Planning */,
-				241BDE80285F14A300021FE2 /* Search */,
-				241BDE93285F1AE700021FE2 /* Backend */,
 				241BDE7D285F13A400021FE2 /* UI */,
+				241BDE80285F14A300021FE2 /* Search */,
+				241BDE83285F16A100021FE2 /* Planning */,
+				241BDE97285F1EDD00021FE2 /* Model */,
+				241BDE93285F1AE700021FE2 /* Backend */,
 				241BDE59285F129F00021FE2 /* Preview Content */,
 			);
 			path = Methodikum;
@@ -226,7 +229,23 @@
 		241BDE94285F1B0400021FE2 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				241BDE95285F1B2F00021FE2 /* API.swift */,
+				241BDE95285F1B2F00021FE2 /* MethodikumAPI.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		241BDE97285F1EDD00021FE2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				241BDE98285F1F0800021FE2 /* Sources */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		241BDE98285F1F0800021FE2 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				241BDE99285F1F2300021FE2 /* Method.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -371,9 +390,10 @@
 			files = (
 				241BDE8B285F175000021FE2 /* SearchView.swift in Sources */,
 				241BDE89285F174100021FE2 /* PlanningView.swift in Sources */,
+				241BDE9A285F1F2300021FE2 /* Method.swift in Sources */,
 				241BDE56285F129D00021FE2 /* IntroView.swift in Sources */,
 				241BDE54285F129D00021FE2 /* MethodikumApp.swift in Sources */,
-				241BDE96285F1B2F00021FE2 /* API.swift in Sources */,
+				241BDE96285F1B2F00021FE2 /* MethodikumAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
