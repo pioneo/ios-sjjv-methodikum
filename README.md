@@ -59,6 +59,6 @@ Following a modularapproach, the Methodikum iOS App contains the following softw
 
 
 ## Author 
-Kerstin Neininger, kerstin.neininger@gmail.com
-Ralph Dornis, dornis@pioneo.de
-Jochen Frey, frey@pioneo.de
+- Kerstin Neininger, kerstin.neininger@gmail.com
+- Ralph Dornis, dornis@pioneo.de
+- Jochen Frey, frey@pioneo.de
