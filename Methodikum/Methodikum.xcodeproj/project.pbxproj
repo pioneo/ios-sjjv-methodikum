@@ -21,6 +21,8 @@
 		241BDE92285F19FF00021FE2 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 241BDE91285F19FF00021FE2 /* FirebaseCrashlytics */; };
 		241BDE96285F1B2F00021FE2 /* MethodikumAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241BDE95285F1B2F00021FE2 /* MethodikumAPI.swift */; };
 		241BDE9A285F1F2300021FE2 /* Method.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241BDE99285F1F2300021FE2 /* Method.swift */; };
+		241BDE9C285F346C00021FE2 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241BDE9B285F346C00021FE2 /* MainView.swift */; };
+		241BDEA0285F3DC400021FE2 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241BDE9F285F3DC400021FE2 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,8 @@
 		241BDE8C285F181100021FE2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		241BDE95285F1B2F00021FE2 /* MethodikumAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MethodikumAPI.swift; sourceTree = "<group>"; };
 		241BDE99285F1F2300021FE2 /* Method.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Method.swift; sourceTree = "<group>"; };
+		241BDE9B285F346C00021FE2 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		241BDE9F285F3DC400021FE2 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,11 +114,13 @@
 			children = (
 				241BDE8C285F181100021FE2 /* GoogleService-Info.plist */,
 				241BDE53285F129D00021FE2 /* MethodikumApp.swift */,
+				241BDE9B285F346C00021FE2 /* MainView.swift */,
 				241BDE7D285F13A400021FE2 /* UI */,
 				241BDE80285F14A300021FE2 /* Search */,
 				241BDE83285F16A100021FE2 /* Planning */,
 				241BDE97285F1EDD00021FE2 /* Model */,
 				241BDE93285F1AE700021FE2 /* Backend */,
+				241BDE9D285F3DA400021FE2 /* Settings */,
 				241BDE59285F129F00021FE2 /* Preview Content */,
 			);
 			path = Methodikum;
@@ -246,6 +252,22 @@
 			isa = PBXGroup;
 			children = (
 				241BDE99285F1F2300021FE2 /* Method.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		241BDE9D285F3DA400021FE2 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				241BDE9E285F3DB300021FE2 /* Sources */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		241BDE9E285F3DB300021FE2 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				241BDE9F285F3DC400021FE2 /* SettingsView.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -389,6 +411,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				241BDE8B285F175000021FE2 /* SearchView.swift in Sources */,
+				241BDEA0285F3DC400021FE2 /* SettingsView.swift in Sources */,
+				241BDE9C285F346C00021FE2 /* MainView.swift in Sources */,
 				241BDE89285F174100021FE2 /* PlanningView.swift in Sources */,
 				241BDE9A285F1F2300021FE2 /* Method.swift in Sources */,
 				241BDE56285F129D00021FE2 /* IntroView.swift in Sources */,

@@ -1,5 +1,5 @@
 //
-//  PlanningView.swift
+//  SettingsView.swift
 //  Methodikum
 //
 //  Created by Jochen Frey on 19.06.22.
@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct PlanningView: View {
+struct SettingsView: View {
     var body: some View {
-        Text("Hello, Planning!")
+        Text("Hello, Settings!")
     }
 }
 
-struct PlanningView_Previews: PreviewProvider {
+struct SettingsView_Previews: PreviewProvider {
     static var previews: some View {
-        PlanningView()
+        SettingsView()
     }
 }

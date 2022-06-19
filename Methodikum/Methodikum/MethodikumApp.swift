@@ -23,7 +23,7 @@ struct MethodikumApp: App {
 
     var body: some Scene {
         WindowGroup {
-            IntroView()
+            MainView()
         }
     }
 }
