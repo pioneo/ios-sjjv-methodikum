@@ -6,11 +6,15 @@
 //
 
 import SwiftUI
+import AVKit
 
 struct IntroView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        PlayerView(name: "background_video_methodikum")
+            .aspectRatio(contentMode: .fill)
+            .edgesIgnoringSafeArea(.all)
+            .overlay(Color.black.opacity(0.2))
+            .blur(radius: 1)
     }
 }
 

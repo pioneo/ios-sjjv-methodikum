@@ -8,22 +8,28 @@
 import SwiftUI
 
 struct MainView: View {
+
+    @State private var showingSheet = true
+
     var body: some View {
         TabView {
             SearchView()
                 .tabItem {
-                    Label("Suche", systemImage: "list.dash")
+                    Label("Übungen", systemImage: "graduationcap.fill")
                 }
 
             PlanningView()
                 .tabItem {
-                    Label("Training", systemImage: "square.and.pencil")
+                    Label("Mein Training", systemImage: "rectangle.3.offgrid.fill")
                 }
 
             SettingsView()
                 .tabItem {
-                    Label("Settings", systemImage: "square.and.pencil")
+                    Label("Einstellungen", systemImage: "gearshape.fill")
                 }
+        }
+        .sheet(isPresented: $showingSheet) {
+            IntroView()
         }
     }
 }

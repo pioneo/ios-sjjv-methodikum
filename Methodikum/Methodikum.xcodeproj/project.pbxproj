@@ -24,6 +24,8 @@
 		241BDEA9285F410A00021FE2 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 241BDEA8285F410A00021FE2 /* FirebaseAnalytics */; };
 		241BDEAB285F410A00021FE2 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 241BDEAA285F410A00021FE2 /* FirebaseCrashlytics */; };
 		241BDEAD285F410A00021FE2 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 241BDEAC285F410A00021FE2 /* FirebaseFirestore */; };
+		241BDEAF285F4DB500021FE2 /* background_video_methodikum.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 241BDEAE285F4DB400021FE2 /* background_video_methodikum.mp4 */; };
+		241BDEB1285F4F4C00021FE2 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241BDEB0285F4F4C00021FE2 /* PlayerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,8 @@
 		241BDE99285F1F2300021FE2 /* Excercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Excercise.swift; sourceTree = "<group>"; };
 		241BDE9B285F346C00021FE2 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		241BDE9F285F3DC400021FE2 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		241BDEAE285F4DB400021FE2 /* background_video_methodikum.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = background_video_methodikum.mp4; sourceTree = "<group>"; };
+		241BDEB0285F4F4C00021FE2 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +169,7 @@
 		241BDE7E285F13D200021FE2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				241BDEAE285F4DB400021FE2 /* background_video_methodikum.mp4 */,
 				241BDE57285F129F00021FE2 /* Assets.xcassets */,
 			);
 			path = Resources;
@@ -174,6 +179,7 @@
 			isa = PBXGroup;
 			children = (
 				241BDE55285F129D00021FE2 /* IntroView.swift */,
+				241BDEB0285F4F4C00021FE2 /* PlayerView.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -388,6 +394,7 @@
 			files = (
 				241BDE5B285F129F00021FE2 /* Preview Assets.xcassets in Resources */,
 				241BDE58285F129F00021FE2 /* Assets.xcassets in Resources */,
+				241BDEAF285F4DB500021FE2 /* background_video_methodikum.mp4 in Resources */,
 				241BDE8D285F181100021FE2 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,6 +420,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				241BDEB1285F4F4C00021FE2 /* PlayerView.swift in Sources */,
 				241BDE8B285F175000021FE2 /* SearchView.swift in Sources */,
 				241BDEA0285F3DC400021FE2 /* SettingsView.swift in Sources */,
 				241BDE9C285F346C00021FE2 /* MainView.swift in Sources */,
